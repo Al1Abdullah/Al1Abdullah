@@ -101,7 +101,7 @@
 
   <!-- Photo -->
   <image
-    href="https://raw.githubusercontent.com/Al1Abdullah/Al1Abdullah/main/assets/profile.jpg"
+    href="https://raw.githubusercontent.com/Al1Abdullah/Al1Abdullah/main/assets/profile.png"
     x="646" y="26" width="228" height="248"
     clip-path="url(#pc)"
     preserveAspectRatio="xMidYMin slice"/>
