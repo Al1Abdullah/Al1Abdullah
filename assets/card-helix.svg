@@ -1,10 +1,10 @@
-<svg width="100%" viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <clipPath id="clip_card-helix.svg">
-      <rect x="0" y="0" width="600" height="320" rx="20"/>
+      <rect x="0" y="0" width="1200" height="300" rx="22"/>
     </clipPath>
     <filter id="blur_card-helix.svg" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="55"/>
+      <feGaussianBlur stdDeviation="80"/>
     </filter>
     <linearGradient id="glass_card-helix.svg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.06"/>
@@ -13,57 +13,55 @@
   </defs>
 
   <g clip-path="url(#clip_card-helix.svg)">
-    <rect x="0" y="0" width="600" height="320" fill="#030B0D"/>
-    <circle cx="520" cy="40" r="130" fill="#AEB06F" opacity="0.16" filter="url(#blur_card-helix.svg)"/>
-    <circle cx="80" cy="290" r="150" fill="#35542C" opacity="0.35" filter="url(#blur_card-helix.svg)"/>
-    <rect x="0" y="0" width="600" height="320" fill="url(#glass_card-helix.svg)"/>
-    <rect x="0.75" y="0.75" width="598.5" height="318.5" rx="19.5"
+    <rect x="0" y="0" width="1200" height="300" fill="#030B0D"/>
+    <circle cx="1040" cy="50" r="220" fill="#AEB06F" opacity="0.16" filter="url(#blur_card-helix.svg)"/>
+    <circle cx="160" cy="280" r="260" fill="#35542C" opacity="0.35" filter="url(#blur_card-helix.svg)"/>
+    <rect x="0" y="0" width="1200" height="300" fill="url(#glass_card-helix.svg)"/>
+    <rect x="0.75" y="0.75" width="1198.5" height="298.5" rx="21.5"
           fill="none" stroke="#AEB06F" stroke-opacity="0.16" stroke-width="1.5"/>
 
-    <text x="576" y="92" text-anchor="end"
-          font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="84" font-weight="800"
+    <text x="1164" y="118" text-anchor="end"
+          font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="150" font-weight="800"
           fill="#AEB06F" opacity="0.06">01</text>
 
-    <text x="28" y="40"
-          font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700"
-          letter-spacing="3" fill="#AEB06F" opacity="0.85">PROJECT 01</text>
+    <text x="44" y="48"
+          font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700"
+          letter-spacing="4" fill="#AEB06F" opacity="0.85">PROJECT 01</text>
 
-    <text x="28" y="74"
-          font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="700"
+    <text x="44" y="92"
+          font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="700"
           fill="#F2F0E6">Helix</text>
 
-    <line x1="28" y1="90" x2="84" y2="90" stroke="#AEB06F" stroke-opacity="0.5" stroke-width="2"/>
+    <line x1="44" y1="112" x2="114" y2="112" stroke="#AEB06F" stroke-opacity="0.5" stroke-width="2"/>
 
-    <text x="28" y="128" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#B9B9B2">A clinical evidence synthesis engine and MCP server.</text>
-  <text x="28" y="150" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#B9B9B2">Queries ClinicalTrials.gov, PubMed, NLM MeSH, and openFDA</text>
-  <text x="28" y="172" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#B9B9B2">in parallel, then ranks results with BM25-based scoring</text>
-  <text x="28" y="194" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#B9B9B2">and eligibility filtering — every match comes with a</text>
-  <text x="28" y="216" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#B9B9B2">transparent breakdown of how it was ranked.</text>
+    <text x="44" y="144" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#B9B9B2">A clinical evidence engine and MCP server. It queries ClinicalTrials.gov, PubMed, NLM MeSH, and openFDA at</text>
+  <text x="44" y="171" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#B9B9B2">the same time, then ranks everything with BM25 scoring and eligibility filtering, so it's actually clear why</text>
+  <text x="44" y="198" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#B9B9B2">a result showed up where it did, not just that it did.</text>
   
-    <rect x="28" y="274" width="65.6" height="26" rx="13"
+    <rect x="44" y="236" width="77.6" height="32" rx="16"
         fill="#AEB06F" fill-opacity="0.08" stroke="#AEB06F" stroke-opacity="0.28" stroke-width="1"/>
-  <text x="60.8" y="291" text-anchor="middle"
-        font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600"
+  <text x="82.8" y="257" text-anchor="middle"
+        font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600"
         letter-spacing="0.5" fill="#AEB06F">Python</text>
-  <rect x="103.6" y="274" width="72.2" height="26" rx="13"
+  <rect x="133.6" y="236" width="85.2" height="32" rx="16"
         fill="#AEB06F" fill-opacity="0.08" stroke="#AEB06F" stroke-opacity="0.28" stroke-width="1"/>
-  <text x="139.7" y="291" text-anchor="middle"
-        font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600"
+  <text x="176.2" y="257" text-anchor="middle"
+        font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600"
         letter-spacing="0.5" fill="#AEB06F">FastAPI</text>
-  <rect x="185.79999999999998" y="274" width="45.8" height="26" rx="13"
+  <rect x="230.79999999999998" y="236" width="54.8" height="32" rx="16"
         fill="#AEB06F" fill-opacity="0.08" stroke="#AEB06F" stroke-opacity="0.28" stroke-width="1"/>
-  <text x="208.7" y="291" text-anchor="middle"
-        font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600"
+  <text x="258.2" y="257" text-anchor="middle"
+        font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600"
         letter-spacing="0.5" fill="#AEB06F">MCP</text>
-  <rect x="241.59999999999997" y="274" width="72.2" height="26" rx="13"
+  <rect x="297.59999999999997" y="236" width="85.2" height="32" rx="16"
         fill="#AEB06F" fill-opacity="0.08" stroke="#AEB06F" stroke-opacity="0.28" stroke-width="1"/>
-  <text x="277.7" y="291" text-anchor="middle"
-        font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600"
+  <text x="340.2" y="257" text-anchor="middle"
+        font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600"
         letter-spacing="0.5" fill="#AEB06F">AsyncIO</text>
-  <rect x="323.79999999999995" y="274" width="65.6" height="26" rx="13"
+  <rect x="394.79999999999995" y="236" width="77.6" height="32" rx="16"
         fill="#AEB06F" fill-opacity="0.08" stroke="#AEB06F" stroke-opacity="0.28" stroke-width="1"/>
-  <text x="356.6" y="291" text-anchor="middle"
-        font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600"
+  <text x="433.6" y="257" text-anchor="middle"
+        font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600"
         letter-spacing="0.5" fill="#AEB06F">Docker</text>
   
   </g>
