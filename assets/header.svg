@@ -84,32 +84,24 @@
     </a>
   </g>
 
-  <!-- ===================== GITHUB LOGO ===================== -->
-  <ellipse cx="1100" cy="110" rx="170" ry="170" fill="url(#iconGlow)"/>
-  <g transform="translate(1100,110)">
-    <circle r="82" fill="#030B0D" stroke="#35542C" stroke-width="2"/>
-    <g transform="scale(0.6)">
-      <!-- ears -->
-      <path d="M-95,-95 L-35,-55 L-60,5 Z" fill="#AEB06F"/>
-      <path d="M95,-95 L35,-55 L60,5 Z" fill="#AEB06F"/>
-      <!-- head / body -->
-      <path d="M0,-70
-               C70,-70 110,-25 110,35
-               C110,100 70,135 0,135
-               C-70,135 -110,100 -110,35
-               C-110,-25 -70,-70 0,-70 Z" fill="#AEB06F"/>
-      <!-- eyes -->
-      <ellipse cx="-38" cy="10" rx="20" ry="26" fill="#030B0D"/>
-      <ellipse cx="38" cy="10" rx="20" ry="26" fill="#030B0D"/>
-      <!-- paw -->
-      <path d="M-150,60
-               C-150,40 -130,30 -110,40
-               C-95,48 -90,70 -100,85
-               C-115,108 -150,95 -150,60 Z" fill="#AEB06F"/>
-      <circle cx="-138" cy="55" r="6" fill="#030B0D"/>
-      <circle cx="-122" cy="48" r="6" fill="#030B0D"/>
-      <circle cx="-128" cy="68" r="6" fill="#030B0D"/>
-    </g>
+  <!-- ===================== GITHUB LOGO (large badge style) ===================== -->
+  <ellipse cx="1075" cy="145" rx="260" ry="260" fill="url(#iconGlow)"/>
+  <circle cx="1075" cy="145" r="150" fill="#AEB06F"/>
+  <g transform="translate(1092,128) scale(0.85)">
+    <!-- ears -->
+    <path d="M-95,-95 L-35,-55 L-60,5 Z" fill="#081010"/>
+    <path d="M95,-95 L35,-55 L60,5 Z" fill="#081010"/>
+    <!-- head / body -->
+    <path d="M0,-70
+             C70,-70 110,-25 110,35
+             C110,100 70,135 0,135
+             C-70,135 -110,100 -110,35
+             C-110,-25 -70,-70 0,-70 Z" fill="#081010"/>
+    <!-- paw -->
+    <path d="M-150,60
+             C-150,40 -130,30 -110,40
+             C-95,48 -90,70 -100,85
+             C-115,108 -150,95 -150,60 Z" fill="#081010"/>
   </g>
 
   <!-- ===================== PROFILE PHOTO (transparent cut-out) ===================== -->
