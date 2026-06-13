@@ -1,65 +1,95 @@
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    HEADER BANNER                          -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div align="center">
+  <img src="assets/header.svg" width="100%" alt="Abdullah — AI Engineering Student"/>
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    TYPING ANIMATION                       -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=19&duration=3200&pause=1000&color=AEB06F&background=00000000&center=true&vCenter=true&width=620&lines=Building+Tomorrow%27s+Intelligence+Today...;Exploring+Deep+Learning+%26+Neural+Networks;Turning+Raw+Data+into+Real+Insights;Always+Learning+%E2%80%94+Always+Building" alt="Typing SVG"/>
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    GITHUB STATS                           -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=Al1Abdullah&show_icons=true&theme=transparent&bg_color=030B0D&title_color=AEB06F&text_color=C2C2BD&icon_color=35542C&border_color=35542C&include_all_commits=true&count_private=true"
+    height="175" alt="GitHub Stats"/>
+  &nbsp;&nbsp;
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Al1Abdullah&layout=compact&theme=transparent&bg_color=030B0D&title_color=AEB06F&text_color=C2C2BD&border_color=35542C&langs_count=8"
+    height="175" alt="Top Languages"/>
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    STREAK STATS                           -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div align="center">
+  <img
+    src="https://streak-stats.demolab.com/?user=Al1Abdullah&background=030B0D&ring=35542C&fire=AEB06F&currStreakLabel=C2C2BD&sideLabels=AEB06F&dates=C2C2BD&border=35542C&stroke=35542C&currStreakNum=C2C2BD&sideNums=C2C2BD"
+    width="96%" alt="GitHub Streak"/>
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    TECH STACK                             -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 <div align="center">
 
-# Ali Abdullah
+### 🛠 &nbsp;Tech Stack
 
-**AI Engineer — RAG Systems · Computer Vision · NLP · MLOps**
+<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,numpy,sklearn&theme=dark" alt="AI/ML"/>
 
-BS Artificial Intelligence · SZABIST Islamabad · CGPA 3.56 · Interned @ atomcamp
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs&theme=dark" alt="Web"/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ali-abdullah-73848a2ba)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=netlify&logoColor=white)](https://al1abdullah.netlify.app)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/Al1Abdullah)
-[![Views](https://komarev.com/ghpvc/?username=Al1Abdullah&style=flat-square&color=CF6640&label=views)](https://github.com/Al1Abdullah)
+<img src="https://skillicons.dev/icons?i=git,github,linux,docker,vscode&theme=dark" alt="Tools"/>
 
 </div>
 
----
+<br/>
 
-Building AI systems for production. My work spans retrieval-augmented generation, computer vision pipelines, and clinical AI tooling. Sixth semester at SZABIST Islamabad — interned at atomcamp where I shipped a full RAG platform from scratch. I write clean, defensible code and build things that actually ship.
-
----
-
-## Work
-
-| Project | Description | Stack |
-|---|---|---|
-| [rag-chatbot](https://github.com/Al1Abdullah/rag-chatbot) | Production RAG platform for atomcamp. MMR retrieval, custom persona, Qdrant vector store. Deployed. | FastAPI · LangChain · Qdrant · Groq |
-| [Helix](https://github.com/Al1Abdullah/helix) | Clinical evidence synthesis engine. Concurrent queries to ClinicalTrials.gov, PubMed, openFDA. 79 passing tests. v1.4.0 | Python · asyncio · FastAPI |
-| [AutoML](https://github.com/Al1Abdullah/AutoML) | No-code ML platform. Upload CSV, train, predict. FLAML backend, React frontend. | FLAML · FastAPI · React · TypeScript |
-| [ExamForge](https://github.com/Al1Abdullah/ExamForge) | AI exam prep — question generation, ColBERT retrieval, multi-turn study sessions. | FastAPI · LangGraph · ColBERT · Supabase |
-| [Qawam](https://github.com/Al1Abdullah/Qawam) | Personalized fitness and nutrition for South Asian ectomorphs. Groq-powered AI coach. | Flutter · FastAPI · Groq · Supabase |
-| SignSpeak | Real-time ASL translation system. Final Year Project at SZABIST Islamabad. | Computer Vision · CNNs · MediaPipe |
-
----
-
-## Stack
-
-**AI / ML**  
-LangChain · LangGraph · TensorFlow · HuggingFace · Groq · Qdrant · FAISS · ColBERT · OpenCV · YOLOv8 · FLAML · sentence-transformers
-
-**Backend**  
-FastAPI · Supabase · PostgreSQL · Docker · Pydantic · REST · SSE Streaming
-
-**Frontend / Mobile**  
-React · TypeScript · Flutter · Tailwind CSS
-
-**Architectures**  
-CNNs · LSTMs · DCGANs · Transformers · RAG · Autoencoders
-
----
-
-## Stats
-
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    ACTIVITY GRAPH                         -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 <div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Al1Abdullah&show_icons=true&theme=transparent&hide_border=true&title_color=CF6640&icon_color=CF6640&text_color=8b949e&bg_color=00000000&rank_icon=github&count_private=true&include_all_commits=true)
-&nbsp;&nbsp;
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Al1Abdullah&layout=compact&theme=transparent&hide_border=true&title_color=CF6640&text_color=8b949e&bg_color=00000000&langs_count=6)
-
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Al1Abdullah&bg_color=030B0D&color=C2C2BD&line=35542C&point=AEB06F&area=true&area_color=35542C&hide_border=false&border_color=35542C&radius=6"
+    width="96%" alt="Activity Graph"/>
 </div>
 
----
+<br/>
 
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    SNAKE ANIMATION                        -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 <div align="center">
-<sub>Islamabad, Pakistan · Open to opportunities</sub>
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+            srcset="https://raw.githubusercontent.com/Al1Abdullah/Al1Abdullah/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)"
+            srcset="https://raw.githubusercontent.com/Al1Abdullah/Al1Abdullah/output/github-contribution-grid-snake.svg"/>
+    <img src="https://raw.githubusercontent.com/Al1Abdullah/Al1Abdullah/output/github-contribution-grid-snake-dark.svg"
+         alt="Contribution Snake"/>
+  </picture>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    FOOTER                                 -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<br/>
+<div align="center">
+  <img
+    src="https://komarev.com/ghpvc/?username=Al1Abdullah&label=Profile+Views&color=35542C&style=flat-square"
+    alt="Profile Views"/>
 </div>
