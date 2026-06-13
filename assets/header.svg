@@ -1,104 +1,120 @@
 <svg width="1456" height="816" viewBox="0 0 1456 816" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <!-- Base background gradient -->
+
+    <!-- Background gradient -->
     <linearGradient id="bgGradient" x1="0%" y1="100%" x2="100%" y2="0%">
       <stop offset="0%"  stop-color="#030B0D"/>
       <stop offset="55%" stop-color="#081010"/>
-      <stop offset="100%" stop-color="#35542C"/>
+      <stop offset="100%" stop-color="#23381C"/>
     </linearGradient>
 
-    <!-- Brick pattern for left side texture -->
-    <pattern id="brickPattern" width="116" height="58" patternUnits="userSpaceOnUse">
-      <rect width="116" height="58" fill="none"/>
-      <path d="M0 0 H116 M0 29 H116 M0 58 H116" stroke="#35542C" stroke-width="1.5" opacity="0.35"/>
-      <path d="M58 0 V29 M0 29 V58 M116 29 V58" stroke="#35542C" stroke-width="1.5" opacity="0.35"/>
+    <!-- Soft dot grid texture -->
+    <pattern id="dotGrid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#35542C" opacity="0.55"/>
     </pattern>
-
-    <!-- Fade mask so the brick pattern fades out toward the right -->
-    <linearGradient id="brickFade" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"  stop-color="#ffffff" stop-opacity="1"/>
-      <stop offset="65%" stop-color="#ffffff" stop-opacity="0.4"/>
+    <linearGradient id="dotFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="65%" stop-color="#ffffff" stop-opacity="0.25"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
-    <mask id="brickMask">
-      <rect width="1456" height="816" fill="url(#brickFade)"/>
+    <mask id="dotMask">
+      <rect width="1456" height="816" fill="url(#dotFade)"/>
     </mask>
 
-    <!-- Spotlight glow behind the GitHub icon -->
-    <radialGradient id="spotlight" cx="50%" cy="35%" r="60%">
-      <stop offset="0%"  stop-color="#C2C2BD" stop-opacity="0.55"/>
-      <stop offset="45%" stop-color="#AEB06F" stop-opacity="0.18"/>
+    <!-- Glow behind GitHub icon / photo -->
+    <radialGradient id="iconGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#AEB06F" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#AEB06F" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Clip path for profile photo -->
-    <clipPath id="profileClip">
-      <rect x="1004" y="222" width="452" height="660" rx="46" ry="46"/>
-    </clipPath>
+    <radialGradient id="photoGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#35542C" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#35542C" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Soft shadow for the cut-out photo -->
+    <filter id="photoShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#030B0D" flood-opacity="0.6"/>
+    </filter>
   </defs>
 
-  <!-- ===== BACKGROUND ===== -->
+  <!-- ===================== BACKGROUND ===================== -->
   <rect width="1456" height="816" fill="url(#bgGradient)"/>
-  <rect width="1456" height="816" fill="url(#brickPattern)" mask="url(#brickMask)"/>
+  <rect width="1456" height="816" fill="url(#dotGrid)" mask="url(#dotMask)"/>
 
-  <!-- ===== SPOTLIGHT BEHIND GITHUB ICON ===== -->
-  <ellipse cx="1090" cy="170" rx="430" ry="430" fill="url(#spotlight)"/>
+  <!-- decorative concentric arcs -->
+  <circle cx="1456" cy="0" r="420" fill="none" stroke="#AEB06F" stroke-width="1" opacity="0.12"/>
+  <circle cx="1456" cy="0" r="540" fill="none" stroke="#AEB06F" stroke-width="1" opacity="0.08"/>
 
-  <!-- ===== GITHUB OCTOCAT ICON ===== -->
-  <g transform="translate(1090,175)">
-    <circle r="155" fill="#030B0D"/>
-    <!-- ears -->
-    <path d="M-95,-95 L-35,-55 L-60,5 Z" fill="#C2C2BD"/>
-    <path d="M95,-95 L35,-55 L60,5 Z" fill="#C2C2BD"/>
-    <!-- head / body -->
-    <path d="M0,-70
-             C70,-70 110,-25 110,35
-             C110,100 70,135 0,135
-             C-70,135 -110,100 -110,35
-             C-110,-25 -70,-70 0,-70 Z" fill="#C2C2BD"/>
-    <!-- eyes (cut-outs) -->
-    <ellipse cx="-38" cy="10" rx="20" ry="26" fill="#030B0D"/>
-    <ellipse cx="38" cy="10" rx="20" ry="26" fill="#030B0D"/>
-    <!-- paw -->
-    <path d="M-150,60
-             C-150,40 -130,30 -110,40
-             C-95,48 -90,70 -100,85
-             C-115,108 -150,95 -150,60 Z" fill="#C2C2BD"/>
-    <circle cx="-138" cy="55" r="6" fill="#030B0D"/>
-    <circle cx="-122" cy="48" r="6" fill="#030B0D"/>
-    <circle cx="-128" cy="68" r="6" fill="#030B0D"/>
+  <!-- thin divider between text block and photo -->
+  <rect x="930" y="90" width="1" height="636" fill="#35542C" opacity="0.45"/>
+
+  <!-- ===================== LEFT TEXT BLOCK ===================== -->
+  <g font-family="'Helvetica Neue', 'Segoe UI', Arial, sans-serif">
+
+    <!-- eyebrow -->
+    <text x="84" y="172" font-size="22" font-weight="700" letter-spacing="6" fill="#AEB06F">
+      AI ENGINEERING STUDENT
+    </text>
+    <rect x="84" y="190" width="120" height="4" fill="#AEB06F"/>
+
+    <!-- name -->
+    <text x="80" y="305" font-size="104" font-weight="800" letter-spacing="-2" fill="#C2C2BD">
+      Ali Abdullah
+    </text>
+
+    <!-- bio -->
+    <text x="84" y="392" font-size="30" font-weight="400" fill="#C2C2BD" opacity="0.82">
+      Specializing in Computer Vision, Deep Learning,
+    </text>
+    <text x="84" y="436" font-size="30" font-weight="400" fill="#C2C2BD" opacity="0.82">
+      Natural Language Processing &amp; LLMs.
+    </text>
+
+    <!-- clickable link button -->
+    <a xlink:href="https://al1abdullah.netlify.app/" target="_blank" style="cursor:pointer;">
+      <rect x="84" y="500" width="520" height="68" rx="34" ry="34"
+            fill="#35542C" fill-opacity="0.22" stroke="#AEB06F" stroke-width="2"/>
+      <text x="116" y="544" font-size="27" font-weight="600" fill="#C2C2BD">
+        al1abdullah.netlify.app
+      </text>
+      <text x="566" y="544" font-size="27" font-weight="700" fill="#AEB06F" text-anchor="middle">
+        &#8594;
+      </text>
+    </a>
   </g>
 
-  <!-- ===== PROFILE IMAGE ===== -->
-  <g>
-    <rect x="998" y="216" width="464" height="672" rx="50" ry="50" fill="#030B0D" stroke="#C2C2BD" stroke-width="6"/>
-    <image href="assets/profile.png" x="1004" y="222" width="452" height="660"
-           preserveAspectRatio="xMidYMid slice" clip-path="url(#profileClip)"/>
-    <rect x="1004" y="222" width="452" height="660" rx="46" ry="46" fill="none" stroke="#C2C2BD" stroke-width="3" opacity="0.6"/>
+  <!-- ===================== GITHUB LOGO ===================== -->
+  <ellipse cx="1100" cy="110" rx="170" ry="170" fill="url(#iconGlow)"/>
+  <g transform="translate(1100,110)">
+    <circle r="82" fill="#030B0D" stroke="#35542C" stroke-width="2"/>
+    <g transform="scale(0.6)">
+      <!-- ears -->
+      <path d="M-95,-95 L-35,-55 L-60,5 Z" fill="#AEB06F"/>
+      <path d="M95,-95 L35,-55 L60,5 Z" fill="#AEB06F"/>
+      <!-- head / body -->
+      <path d="M0,-70
+               C70,-70 110,-25 110,35
+               C110,100 70,135 0,135
+               C-70,135 -110,100 -110,35
+               C-110,-25 -70,-70 0,-70 Z" fill="#AEB06F"/>
+      <!-- eyes -->
+      <ellipse cx="-38" cy="10" rx="20" ry="26" fill="#030B0D"/>
+      <ellipse cx="38" cy="10" rx="20" ry="26" fill="#030B0D"/>
+      <!-- paw -->
+      <path d="M-150,60
+               C-150,40 -130,30 -110,40
+               C-95,48 -90,70 -100,85
+               C-115,108 -150,95 -150,60 Z" fill="#AEB06F"/>
+      <circle cx="-138" cy="55" r="6" fill="#030B0D"/>
+      <circle cx="-122" cy="48" r="6" fill="#030B0D"/>
+      <circle cx="-128" cy="68" r="6" fill="#030B0D"/>
+    </g>
   </g>
 
-  <!-- ===== FREECODECAMP-STYLE FLAME ICON ===== -->
-  <g transform="translate(64,150)" fill="#AEB06F">
-    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">(</text>
-    <path transform="translate(38,-40) scale(0.9)" d="M16 2
-             C16 2 26 12 22 24
-             C20 30 14 32 12 28
-             C18 24 14 18 12 22
-             C8 16 14 6 16 2 Z"/>
-    <text x="76" y="0" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">)</text>
-  </g>
-
-  <!-- ===== HEADLINE TEXT ===== -->
-  <g font-family="Arial, Helvetica, sans-serif" font-weight="800" fill="#C2C2BD">
-    <text x="64" y="280" font-size="64">Hi, I'm Ali Abdullah</text>
-    <text x="64" y="360" font-size="64">AI Engineering Student</text>
-    <text x="64" y="440" font-size="64">Expertise in CV, DL,</text>
-    <text x="64" y="520" font-size="64">NLP &amp; LLMs</text>
-  </g>
-
-  <!-- ===== WEBSITE / SUBTITLE ===== -->
-  <text x="64" y="600" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="500" fill="#AEB06F">
-    https://al1abdullah.netlify.app/
-  </text>
+  <!-- ===================== PROFILE PHOTO (transparent cut-out) ===================== -->
+  <ellipse cx="1190" cy="500" rx="280" ry="340" fill="url(#photoGlow)"/>
+  <image href="assets/profile.png" x="985" y="166" width="415" height="650"
+         preserveAspectRatio="xMidYMax meet" filter="url(#photoShadow)"/>
 
 </svg>
