@@ -23,11 +23,11 @@
 
 <br/>
 
-Most of what I build lives in the space between a trained model and something a person can actually use — data pipelines, retrieval systems, APIs, and the deployment work that turns an experiment into a running service.
+I'm an AI Engineering student at SZABIST, Islamabad, and most of what I work on ends up being some combination of retrieval, computer vision, and trying to get a model out of a notebook and into something people can actually use.
 
-Recent work centers on retrieval-augmented generation and information retrieval more broadly. Helix, a clinical evidence engine, queries ClinicalTrials.gov, PubMed, NLM MeSH, and openFDA in parallel, then scores and ranks the combined results using BM25 and eligibility filtering — making it clear *why* a result was ranked where it was, not just *that* it was. Other work spans computer vision, including a plant disease classifier built on a fine-tuned MobileNetV2, and tooling that wraps common ML workflows into something usable from a browser.
+Right now I'm building Helix, a clinical evidence engine that pulls from ClinicalTrials.gov, PubMed, NLM MeSH, and openFDA at once, then ranks everything with BM25 and eligibility filters so you can actually see why something ranked where it did, not just that it did. I've also built a plant disease classifier (MobileNetV2, 38 classes) and a couple of tools that wrap ML workflows so they're usable from a browser instead of just a script.
 
-In mid-2025, I worked as an AI Intern at atomcamp, building a RAG-based knowledge assistant over the company's program and admissions data, alongside an AutoML tool for CSV-based workflows — both deployed on Hugging Face Spaces.
+Over summer 2025 I interned at atomcamp as an AI Intern, where I built a RAG knowledge assistant for their program and admissions data, plus an AutoML tool for CSV workflows. Both shipped to Hugging Face Spaces.
 
 <br/>
 
@@ -38,7 +38,7 @@ In mid-2025, I worked as an AI Intern at atomcamp, building a RAG-based knowledg
 
 <br/>
 
-- Studying AI Engineering at SZABIST, Islamabad — expected 2027
+- Studying AI Engineering at SZABIST, Islamabad (expected 2027)
 - Building Helix, an MCP-compatible clinical evidence retrieval engine
 - Open to AI/ML internships in Islamabad, on-site preferred
 
@@ -51,24 +51,19 @@ In mid-2025, I worked as an AI Intern at atomcamp, building a RAG-based knowledg
 
 <br/>
 
-<table width="100%">
-<tr>
-<td width="50%">
 <img src="assets/card-helix.svg" width="100%" alt="Helix"/>
-</td>
-<td width="50%">
+
+<br/>
+
 <img src="assets/card-plantoi.svg" width="100%" alt="Plantoi"/>
-</td>
-</tr>
-<tr>
-<td width="50%">
+
+<br/>
+
 <img src="assets/card-ragassistant.svg" width="100%" alt="RAG Knowledge Assistant"/>
-</td>
-<td width="50%">
+
+<br/>
+
 <img src="assets/card-automl.svg" width="100%" alt="AutoML"/>
-</td>
-</tr>
-</table>
 
 <br/>
 
@@ -145,11 +140,11 @@ In mid-2025, I worked as an AI Intern at atomcamp, building a RAG-based knowledg
 
 **Education**
 SZABIST University, Islamabad
-Bachelor's degree, AI Engineering — 2023 to 2027
+Bachelor's degree, AI Engineering (2023 to 2027)
 Coursework centered on machine learning and applied computing, with an emphasis on turning concepts into working implementations through projects and structured assignments.
 
 **Experience**
-AI Intern, atomcamp — June 2025 to August 2025, Islamabad
+AI Intern, atomcamp (June 2025 to August 2025), Islamabad
 Built a RAG-based knowledge assistant and an AutoML tool for CSV-based workflows, both deployed on Hugging Face Spaces, and worked on prompt engineering to keep model outputs structured and consistent.
 
 <br/>
