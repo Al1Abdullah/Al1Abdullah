@@ -2,7 +2,7 @@
 <!--                    HEADER BANNER                          -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 <div align="center">
-  <img src="assets/header.svg" width="100%" alt="Abdullah — AI Engineering Student"/>
+  <img src="assets/header.png" width="100%" alt="Abdullah — AI Engineering Student"/>
 </div>
 
 <br/>
