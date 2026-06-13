@@ -41,7 +41,7 @@ Currently focused on system-level AI engineering, including retrieval architectu
 <br/>
 
 - Studying AI Engineering at SZABIST, Islamabad (expected 2027)
-- Building Helix, an MCP-compatible clinical evidence retrieval engine
+- Built Helix, an MCP-compatible clinical evidence retrieval engine
 - Open to AI/ML internships in Islamabad, on-site preferred
 
 <br/>
