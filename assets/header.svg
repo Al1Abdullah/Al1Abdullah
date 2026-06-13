@@ -72,7 +72,7 @@
     </text>
 
     <!-- clickable link button -->
-    <a xlink:href="https://al1abdullah.netlify.app/" target="_blank" style="cursor:pointer;">
+    <a href="https://al1abdullah.netlify.app/" xlink:href="https://al1abdullah.netlify.app/" target="_blank" style="cursor:pointer;">
       <rect x="84" y="500" width="520" height="68" rx="34" ry="34"
             fill="#35542C" fill-opacity="0.22" stroke="#AEB06F" stroke-width="2"/>
       <text x="116" y="544" font-size="27" font-weight="600" fill="#C2C2BD">
@@ -114,7 +114,7 @@
 
   <!-- ===================== PROFILE PHOTO (transparent cut-out) ===================== -->
   <ellipse cx="1190" cy="500" rx="280" ry="340" fill="url(#photoGlow)"/>
-  <image href="assets/profile.png" x="985" y="166" width="415" height="650"
+  <image href="assets/profile.png" x="990" y="166" width="410" height="650"
          preserveAspectRatio="xMidYMax meet" filter="url(#photoShadow)"/>
 
 </svg>
