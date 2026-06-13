@@ -23,11 +23,13 @@
 
 <br/>
 
-I'm an AI Engineering student at SZABIST, Islamabad, and most of what I work on ends up being some combination of retrieval, computer vision, and trying to get a model out of a notebook and into something people can actually use.
+I build end-to-end AI systems, focusing on data pipelines, model training workflows, and deployment systems.
 
-Right now I'm building Helix, a clinical evidence engine that pulls from ClinicalTrials.gov, PubMed, NLM MeSH, and openFDA at once, then ranks everything with BM25 and eligibility filters so you can actually see why something ranked where it did, not just that it did. I've also built a plant disease classifier (MobileNetV2, 38 classes) and a couple of tools that wrap ML workflows so they're usable from a browser instead of just a script.
+Recent work includes Helix, a clinical evidence synthesis engine that integrates ClinicalTrials.gov, PubMed, NLM MeSH, and openFDA in parallel, with structured scoring and explainable ranking over medical data sources. I also built Plantoi, a plant disease classification system using transfer learning models deployed on Hugging Face Spaces with Docker deployment.
 
-Over summer 2025 I interned at atomcamp as an AI Intern, where I built a RAG knowledge assistant for their program and admissions data, plus an AutoML tool for CSV workflows. Both shipped to Hugging Face Spaces.
+Earlier projects include a RAG-based chatbot for structured company data using MMR-based retrieval to improve relevance and diversity, and an AutoML system for preprocessing, visualization, model training, and dataset exploration for CSV-based machine learning workflows.
+
+Currently focused on system-level AI engineering, including retrieval architectures, multi-source pipelines, and deployment design. Actively seeking AI/ML internship opportunities (onsite Islamabad preferred) to work on real-world AI systems.
 
 <br/>
 
