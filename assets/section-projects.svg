@@ -1,0 +1,19 @@
+<svg width="100%" viewBox="0 0 1000 70" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lineFade_section-projects.svg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#AEB06F" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#AEB06F" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1000" height="70" rx="14" fill="#030B0D"/>
+  <rect x="24" y="15" width="40" height="40" rx="8"
+        fill="none" stroke="#AEB06F" stroke-opacity="0.45" stroke-width="1.25"/>
+  <text x="44.0" y="41.0" text-anchor="middle"
+        font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600"
+        fill="#AEB06F">03</text>
+  <text x="86" y="41.0"
+        font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19"
+        font-weight="700" letter-spacing="4" fill="#F2F0E6">FEATURED PROJECTS</text>
+  <line x1="374.26" y1="35.0" x2="976" y2="35.0"
+        stroke="url(#lineFade_section-projects.svg)" stroke-width="1"/>
+</svg>
